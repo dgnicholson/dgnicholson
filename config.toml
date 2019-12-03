@@ -1,4 +1,4 @@
-baseurl = "http://dplesca.github.io/purehugo/"
+baseurl = "https://dplesca.github.io/purehugo/"
 languageCode = "en-us"
 title = "purehugo"
 theme = "purehugo"
