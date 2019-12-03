@@ -1,5 +1,14 @@
-baseURL = "http://example.org/"
+baseurl = "http://dplesca.github.io/purehugo/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "purehugo"
 theme = "purehugo"
-paginate = 10
+Paginate = 10
+disqusShortname = "xxxx"
+
+[params]
+  twitterName = "dragos_plesca"
+  githubName = "dplesca"
+  stackOverflowId = "#######"
+  linkedinName = "dragos-plesca-52797444"
+  description = "Demo site for a hugo theme"
+  google_analytics = "UA-xxxxxx-xx"
