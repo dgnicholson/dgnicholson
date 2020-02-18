@@ -18,5 +18,4 @@ fields:
       format: markdown
   label: Main Body
 pages:
-- content/post/example-1.md
 - content/post/example.md
