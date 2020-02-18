@@ -1,7 +1,7 @@
 baseurl = "https://dplesca.github.io/purehugo/"
 languageCode = "en-us"
-title = "paper"
-theme = "paper"
+title = "hugo-paper"
+theme = "hugo-paper"
 Paginate = 10
 disqusShortname = "xxxx"
 
