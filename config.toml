@@ -1,3 +1,4 @@
 languageCode = "en-us"
 title = "DG Nicholson"
 theme = "paper"
+contentDir = "content"
