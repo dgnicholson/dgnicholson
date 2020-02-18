@@ -17,5 +17,3 @@ fields:
     schema:
       format: markdown
   label: Main Body
-pages:
-- content/post/example.md
