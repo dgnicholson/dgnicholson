@@ -1,3 +1,4 @@
+baseURL="https://domain.site"
 languageCode = "en-us"
 title = "DG Nicholson"
 theme = "hugo-theme-minos"
