@@ -1,14 +1,4 @@
-baseurl = "https://dplesca.github.io/purehugo/"
 languageCode = "en-us"
-title = "paper"
-theme = "paper"
+title = "Paper"
+theme = "Paper"
 Paginate = 10
-disqusShortname = "xxxx"
-
-[params]
-  twitterName = "dragos_plesca"
-  githubName = "dplesca"
-  stackOverflowId = "#######"
-  linkedinName = "dragos-plesca-52797444"
-  description = "Demo site for a hugo theme"
-  google_analytics = "UA-xxxxxx-xx"
