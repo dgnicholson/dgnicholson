@@ -1,4 +1,4 @@
 languageCode = "en-us"
 title = "DG Nicholson"
 theme = "hugo-theme-minos"
-contentDir = "content"
+contentDir = "content/post"
