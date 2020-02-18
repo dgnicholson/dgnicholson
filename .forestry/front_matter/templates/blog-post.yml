@@ -8,12 +8,3 @@ fields:
 - type: datetime
   name: date
   label: date
-- name: main_body
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Main Body
