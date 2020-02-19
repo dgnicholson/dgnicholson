@@ -26,3 +26,5 @@ fields:
     schema:
       format: markdown
   label: Body
+pages:
+- content/post/example-2-0.md
