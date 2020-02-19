@@ -24,5 +24,4 @@ fields:
   default: true
 pages:
 - content/post/about-dan.md
-- content/post/about.md
 - content/post/contact.md
