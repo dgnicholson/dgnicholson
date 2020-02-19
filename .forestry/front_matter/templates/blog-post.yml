@@ -17,14 +17,5 @@ fields:
   type: tag_list
   default: []
   label: hidden
-- name: body
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Body
 pages:
 - content/post/example-2-0.md
