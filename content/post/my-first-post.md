@@ -2,6 +2,7 @@
 title: My First Post
 date: 2019-12-02T23:51:04.000+00:00
 menu: "main"
+hidden: "true"
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor orci eget arcu egestas, quis scelerisque nulla dapibus. Nulla convallis, tortor ac lobortis accumsan, ex ligula molestie ex, at cursus ligula libero non magna. In erat sapien, eleifend ac consectetur vel, dignissim a enim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer eget ex tristique purus pharetra convallis. Nam quis dapibus dui. Integer a justo nec libero viverra efficitur in ut quam.
 
