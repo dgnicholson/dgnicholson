@@ -8,3 +8,10 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: featuredimage
+  type: file
+  config:
+    maxSize: 250
+  label: featuredImage
+pages:
+- content/post/example-two.md
