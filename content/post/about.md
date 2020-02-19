@@ -1,6 +1,5 @@
 +++
 date = ""
-draft = true
 hidden = "true"
 omitDate = "true"
 title = "About"
