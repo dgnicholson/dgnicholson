@@ -14,5 +14,11 @@ fields:
 - type: text
   name: hidden
   label: hidden
+- name: menu
+  type: text
+  config:
+    required: false
+  label: menu
+  default: main
 pages:
 - content/post/about.md
