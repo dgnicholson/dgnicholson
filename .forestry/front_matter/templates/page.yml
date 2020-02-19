@@ -15,3 +15,5 @@ fields:
   type: tag_list
   default: []
   label: hidden
+pages:
+- content/post/example.md
