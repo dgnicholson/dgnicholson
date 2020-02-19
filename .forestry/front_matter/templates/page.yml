@@ -8,18 +8,20 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: text
-  name: omitDate
-  label: omitDate
-- type: text
-  name: hidden
-  label: hidden
 - name: menu
   type: text
   config:
     required: false
   label: menu
   default: main
+- name: omitdate
+  type: boolean
+  label: omitDate
+  default: true
+- name: hidden
+  type: boolean
+  label: hidden
+  default: true
 pages:
 - content/post/about.md
 - content/post/contact.md
