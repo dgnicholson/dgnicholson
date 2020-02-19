@@ -22,6 +22,10 @@ fields:
   type: boolean
   label: hidden
   default: true
+- name: smarttoc
+  type: boolean
+  label: smartToc
+  default: true
 pages:
 - content/post/about-dan.md
 - content/post/about.md
