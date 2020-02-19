@@ -9,8 +9,8 @@ fields:
   name: date
   label: date
 - type: text
-  name: hidden
-  label: hidden
-- type: text
   name: omitDate
   label: omitDate
+- type: text
+  name: hidden
+  label: hidden
