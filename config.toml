@@ -6,4 +6,4 @@ contentDir = "content/post"
 paginate = 10 
 [params]
     smartToc = true 
-    katex = true
+    
