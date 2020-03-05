@@ -280,7 +280,8 @@ a.article-title:hover,
 #header {
   font-size: 14px;
   position: relative;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ccc;
+  background-color: #f4f4f4;
 }
 #header.mobile-on #main-nav,
 #header.mobile-on #sub-nav {
