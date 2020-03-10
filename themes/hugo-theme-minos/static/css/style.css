@@ -315,6 +315,13 @@ a.article-title:hover,
 .main-nav-link {
   font-weight: 600;
 }
+
+.main-nav-link a:hover { 
+ color: #111; 
+ border-bottom: 1px dotted transparent;
+ }
+
+
 @media screen and (max-width: 839px) {
   .main-nav-link {
     float: none;
