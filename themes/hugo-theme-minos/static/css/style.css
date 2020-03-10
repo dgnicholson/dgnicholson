@@ -317,8 +317,8 @@ a.article-title:hover,
 }
 
 .main-nav-link a:hover { 
- color: #111; 
- border-bottom: 1px dotted transparent;
+ color: #b33; 
+ text-decoration: underline;
  }
 
 
