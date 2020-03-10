@@ -3,7 +3,7 @@ date = 2020-02-18T04:00:00Z
 hidden = true
 omitdate = true
 smarttoc = false
-title = "About Dan"
+title = "About Me"
 [menu.main]
 weight = 2
 
