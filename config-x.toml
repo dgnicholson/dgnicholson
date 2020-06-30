@@ -1,0 +1,9 @@
+baseURL="https://relaxed-beaver-e36a34.netlify.com/"
+languageCode = "en-us"
+title = "DG Nicholson"
+theme = "hugo-theme-minos"
+contentDir = "content/post"
+paginate = 10 
+[params]
+    smartToc = true 
+    

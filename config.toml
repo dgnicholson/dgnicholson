@@ -2,8 +2,24 @@ baseURL="https://relaxed-beaver-e36a34.netlify.com/"
 languageCode = "en-us"
 title = "DG Nicholson"
 theme = "hugo-theme-minos"
-contentDir = "content/post"
-paginate = 10 
+copyright = "© 2020 copyright text."
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
 [params]
-    smartToc = true 
-    
+description = "<your site description>"   
