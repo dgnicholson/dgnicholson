@@ -1,0 +1,24 @@
+theme = "hugo-theme-simple-blog"
+baseURL = "https://sleepy-poincare-ee69bc.netlify.app"
+title = "<your site title>"
+copyright = "© 2020 copyright text."
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[params]
+description = "<your site description>"
