@@ -1,5 +1,5 @@
 baseURL="https://relaxed-beaver-e36a34.netlify.com/"
-theme = "simple-blog"
+theme = "hugo-theme-simple-blog"
 title = "<your site title>"
 copyright = "© 2020 copyright text."
 paginate = 3
