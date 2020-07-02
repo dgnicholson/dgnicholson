@@ -1,24 +1,67 @@
 baseURL="https://relaxed-beaver-e36a34.netlify.com/"
-theme = "simple-blog"
-title = "<your site title>"
-copyright = "© 2020 copyright text."
-paginate = 3
-languageCode = "en"
-DefaultContentLanguage = "en"
-enableInlineShortcodes = true
-footnoteReturnLinkContents = "^"
 
-[menu]
+# Override these settings with your own
+languageCode = "en-us"
+copyright = "© {year}"
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
+# The value "hugo-theme-codex" is only to get the exampleSite
+# to work in this repo. Change to whatever name you gave the theme
+# when you added it. If you followed the README, you should have 
+# added the theme using the name "codex".
+theme = "hugo-theme-codex" 
 
-[taxonomies]
-category = "categories"
-tag = "tags"
+# REMOVE THIS!
+# This is only to get the exampleSite to work in this repo.
+# themesDir = "../../" 
 
+# Add your Disqus shortname here.
+# disqusShortname = ""
+
+# Add your Google Analytics identifier: UA-XXXXXXXX-X
+# googleAnalytics = "" 
+
+# Optional params
 [params]
-description = "<your site description>"
+  # Follow the Hugo date/time format reference here: 
+  # https://gohugo.io/functions/format/#gos-layout-string
+  dateFormat = "Jan 2 2006"
+
+  # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
+  twitter = "https://twitter.com/<your handle>"
+  github = "https://github.com/<your handle>"
+  # email = "mailto:<your email>"
+  # facebook = "https://facebook.com/<your handle>"
+  # gitlab = "https://gitlab.com/<your handle>"
+  # instagram = "https://instagram.com/<your handle>"
+  # linkedin = "<link to your profile>"
+  # youtube = "https://www.youtube.com/channel/<your channel>"
+  
+  # Titles for your icons (shown as tooltips), and also their display order.
+  # Currently, these icons are supported: 
+  #   "Twitter", "GitHub", "Email", "Facebook", "GitLab", "Instagram", "LinkedIn", "YouTube"
+  iconTitles = ["Twitter", "GitHub"]
+
+# This disables Hugo's default syntax highlighting in favor
+# of prismjs. If you wish to use Hugo's default syntax highlighting
+# over prismjs, remove this. You will also need to remove the prismjs
+# vendor script in layouts/blog/single.html.
+[markup]
+  [markup.highlight]
+    codeFences = false
+    
+  # Set to false to disallow raw HTML in markdown files
+  [markup.goldmark.renderer]
+      unsafe = true
+
+# Controls the navigation
+[[menu.main]]
+  identifier = "about"
+  name = "about"
+  title = "About"
+  url = "/"
+
+[[menu.main]]
+  identifier = "blog"
+  name = "blog"
+  title = "Blog"
+  url = "/blog"
