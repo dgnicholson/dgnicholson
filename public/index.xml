@@ -1,23 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>paper</title>
-    <link>/</link>
-    <description>Recent content on paper</description>
+    <title></title>
+    <link>https://relaxed-beaver-e36a34.netlify.com/</link>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Feb 2020 04:00:00 +0000</lastBuildDate>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Tue, 18 Feb 2020 04:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://relaxed-beaver-e36a34.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Example</title>
-      <link>/post/example/</link>
-      <pubDate>Mon, 17 Feb 2020 04:00:00 +0000</pubDate>
+      <title>About Me</title>
+      <link>https://relaxed-beaver-e36a34.netlify.com/post/about-me/</link>
+      <pubDate>Tue, 18 Feb 2020 04:00:00 +0000</pubDate>
       
-      <guid>/post/example/</guid>
-      <description></description>
+      <guid>https://relaxed-beaver-e36a34.netlify.com/post/about-me/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper ut ligula vitae suscipit. Suspendisse aliquam lobortis malesuada. Mauris ac mollis ipsum. In hac habitasse platea dictumst. Quisque lacinia eros purus, id blandit purus imperdiet ac. Nunc nunc erat, luctus at egestas ac, euismod eu mi. Nullam posuere felis metus. Quisque ultrices magna eu hendrerit laoreet. Nullam in ante at neque posuere pretim ullamcorper non diam. Nullam porta placerat ligula eu feugiat.</description>
+    </item>
+    
+    <item>
+      <title>Example Three</title>
+      <link>https://relaxed-beaver-e36a34.netlify.com/post/example-three-1/</link>
+      <pubDate>Tue, 18 Feb 2020 04:00:00 +0000</pubDate>
+      
+      <guid>https://relaxed-beaver-e36a34.netlify.com/post/example-three-1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper ut ligula vitae suscipit. Suspendisse aliquam lobortis malesuada. Mauris ac mollis ipsum. In hac habitasse platea dictumst. Quisque lacinia eros purus, id blandit purus imperdiet ac. Nunc nunc erat, luctus at egestas ac, euismod eu mi. Nullam posuere felis metus. Quisque ultrices magna eu hendrerit laoreet. Nullam in ante at neque posuere pretium ullamcorper non diam. Nullam porta placerat ligula eu feugiat.</description>
+    </item>
+    
+    <item>
+      <title>Example Two</title>
+      <link>https://relaxed-beaver-e36a34.netlify.com/post/example-three/</link>
+      <pubDate>Tue, 18 Feb 2020 04:00:00 +0000</pubDate>
+      
+      <guid>https://relaxed-beaver-e36a34.netlify.com/post/example-three/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper ut ligula vitae suscipit. Suspendisse aliquam lobortis malesuada. Mauris ac mollis ipsum. In hac habitasse platea dictumst. Quisque lacinia eros purus, id blandit purus imperdiet ac. Nunc nunc erat, luctus at egestas ac, euismod eu mi. Nullam posuere felis metus. Quisque ultrices magna eu hendrerit laoreet. Nullam in ante at neque posuere pretium ullamcorper non diam. Nullam porta placerat ligula eu feugiat.</description>
+    </item>
+    
+    <item>
+      <title>My Second Post</title>
+      <link>https://relaxed-beaver-e36a34.netlify.com/post/my-second-post/</link>
+      <pubDate>Tue, 18 Feb 2020 04:00:00 +0000</pubDate>
+      
+      <guid>https://relaxed-beaver-e36a34.netlify.com/post/my-second-post/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper ut ligula vitae suscipit. Suspendisse aliquam lobortis malesuada. Mauris ac mollis ipsum. In hac habitasse platea dictumst. Quisque lacinia eros purus, id blandit purus imperdiet ac. Nunc nunc erat, luctus at egestas ac, euismod eu mi. Nullam posuere felis metus. Quisque ultrices magna eu hendrerit laoreet. Nullam in ante at neque posuere pretium ullamcorper non diam. Nullam porta placerat ligula eu feugiat.</description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>https://relaxed-beaver-e36a34.netlify.com/post/portfolio/</link>
+      <pubDate>Tue, 18 Feb 2020 04:00:00 +0000</pubDate>
+      
+      <guid>https://relaxed-beaver-e36a34.netlify.com/post/portfolio/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper ut ligula vitae suscipit. Suspendisse aliquam lobortis malesuada. Mauris ac mollis ipsum. In hac habitasse platea dictumst. Quisque lacinia eros purus, id blandit purus imperdiet ac. Nunc nunc erat, luctus at egestas ac, euismod eu mi. Nullam posuere felis metus. Quisque ultrices magna eu hendrerit laoreet. Nullam in ante at neque posuere pretim ullamcorper non diam. Nullam porta placerat ligula eu feugiat.</description>
     </item>
     
   </channel>
