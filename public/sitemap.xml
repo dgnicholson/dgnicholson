@@ -3,46 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://relaxed-beaver-e36a34.netlify.com/</loc>
-    <lastmod>2020-02-18T04:00:00+00:00</lastmod>
+    <loc>/post/example/</loc>
+    <lastmod>2020-02-17T04:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://relaxed-beaver-e36a34.netlify.com/post/about-me/</loc>
-    <lastmod>2020-02-18T04:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2020-02-17T04:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://relaxed-beaver-e36a34.netlify.com/post/example-three-1/</loc>
-    <lastmod>2020-02-18T04:00:00+00:00</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2020-02-17T04:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://relaxed-beaver-e36a34.netlify.com/post/example-three/</loc>
-    <lastmod>2020-02-18T04:00:00+00:00</lastmod>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>https://relaxed-beaver-e36a34.netlify.com/post/my-second-post/</loc>
-    <lastmod>2020-02-18T04:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://relaxed-beaver-e36a34.netlify.com/post/portfolio/</loc>
-    <lastmod>2020-02-18T04:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://relaxed-beaver-e36a34.netlify.com/post/</loc>
-    <lastmod>2020-02-18T04:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://relaxed-beaver-e36a34.netlify.com/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://relaxed-beaver-e36a34.netlify.com/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
