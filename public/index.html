@@ -1,176 +1,119 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>paper</title>
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <link href="an-old-hope.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" href="favicon.ico">
+    
+    <meta name="generator" content="Hugo 0.64.1" />
+    
+    <link rel="alternate" type="application/atom+xml" href="index.xml" title="paper">
+    
+    
+    
+    <script>
+      function setTheme() {
+        const time = new Date();
 
-<head>
-	<meta name="generator" content="Hugo 0.73.0" />
-  <title></title>
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
 
-  <meta charset="UTF-8">
-  <meta name="language" content="en">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
 
-  
-  
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="" />
-  <meta name="twitter:description" content=""
-  />
-  <meta name="twitter:site" content="@https://twitter.com/&lt;your handle&gt;" />
-  <meta name="twitter:creator" content="@https://twitter.com/&lt;your handle&gt;" />
-  
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
 
-  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
-
-  
-  
-    
- 
-  
-  
-  
-  
-  
-  
-    
-    <link rel="stylesheet" href="/css/about.min.9afdd94612927f014f80d0dd138de178d719be4425d7fc9fff9a1eef063a0a82.css" integrity="sha256-mv3ZRhKSfwFPgNDdE43heNcZvkQl1/yf/5oe7wY6CoI="/>
-  
-    
-    <link rel="stylesheet" href="/css/custom.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" integrity="sha256-47DEQpj8HBSa&#43;/TImW&#43;5JCeuQeRkm5NMpJWZG3hSuFU="/>
-  
-  
-   
-  <link rel="alternate" type="application/rss+xml+xml" href="https://relaxed-beaver-e36a34.netlify.com/index.xml" title="" /> 
-   
-   
-    
-
-<script type="application/ld+json">
-  
-    { 
-      "@context": "http://schema.org", 
-      "@type": "WebSite", 
-      "url": "https:\/\/relaxed-beaver-e36a34.netlify.com\/",
-      "name": "",
-      "author": {
-        "@type": "Person",
-        "name": ""
-      },
-      "description": ""
-    }
-  
-  </script>
-</head>
-
-<body>
-  <div class="burger__container">
-  <div class="burger" aria-controls="navigation" aria-label="Menu">
-    <div class="burger__meat burger__meat--1"></div>
-    <div class="burger__meat burger__meat--2"></div>
-    <div class="burger__meat burger__meat--3"></div>
-  </div>
-</div>
- 
-
-  <nav class="nav" role="navigation">
-  <ul class="nav__list">
-    
-    
-      <li>
-        <a  class="active"
-         href="/post/about-me/">About Me</a>
-      </li>
-    
-      <li>
-        <a  class="active"
-         href="/post/portfolio/">Portfolio</a>
-      </li>
-    
-      <li>
-        <a  class="active"
-         href="/">about</a>
-      </li>
-    
-      <li>
-        <a  href="/blog">blog</a>
-      </li>
-    
-  </ul>
-</nav>
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then(res => res.json())
+            .then(data => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="list home">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        
+        <h1 class="logo"><a href="">paper</a></h1>
+        
+        
+      </nav>
+    </header>
+    <main class="main">
 
 
-  <main>
-    
-
-<div class="splash-container">
-  <div class="splash">
-    
-    <h1>Hi, I&#39;m Codex<span class="fancy">.</span></h1>
-    
-    <span class="handle">@hugo-theme-codex</span>
-    
-    <h2>
-      A minimal blog theme for hugo.
-    </h2>
-    
-
-    
 
 
-<div class="social-icons">
-  
-     
-    
-      <a class="social-icons__icon" title="Twitter"
-         style="background-image: url(/images/social/twitter.svg)" 
-         href="https://twitter.com/%3cyour%20handle%3e"
-         target="_blank" rel="noopener">
-      </a>
-    
-  
-     
-    
-      <a class="social-icons__icon" title="GitHub"
-         style="background-image: url(/images/social/github.svg)" 
-         href="https://github.com/%3cyour%20handle%3e"
-         target="_blank" rel="noopener">
-      </a>
-    
-  
-     
-    
-  
-     
-    
-  
-     
-    
-  
-     
-    
-  
-     
-    
-  
-     
-    
-     
-</div>
-
-  </div>
-</div>
 
 
-  </main>
 
-   
 
-  
-  <script src="/js/index.min.49e4d8a384357d9b445b87371863419937ede9fa77737522ffb633073aebfa44.js" integrity="sha256-SeTYo4Q1fZtEW4c3GGNBmTft6fp3c3Ui/7YzBzrr&#43;kQ=" crossorigin="anonymous"></script>
-   
+<article class="first-entry">
+  <header class="entry-header">
+    <h2>Example</h2>
+  </header>
+  <section class="entry-content">
+   <p>...</p>
+  </section>
+  <footer class="entry-footer">
+    <time>February 17, 2020</time>
+  </footer>
+  <a class="entry-link" href="/post/example/"></a>
+</article>
+
+
+
+
+</main>
+<footer class="footer">
+  <span>&copy; 2020 <a href="">paper</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
 </body>
-
 </html>
+
