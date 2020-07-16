@@ -1,13 +1,10 @@
-# REMOVE THIS
-themesDir = "../../" 
-
 # DO NOT REMOVE THIS
 theme = "hugo-theme-codex" 
 
 # Override these settings with your own
 title = "codex"
 languageCode = "en-us"
-baseURL="http://192.168.2.117/"
+baseURL="https://relaxed-beaver-e36a34.netlify.app/"
 copyright = "© {year}"
 
 # Add your Disqus shortname here.
