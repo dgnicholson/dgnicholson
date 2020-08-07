@@ -18,7 +18,8 @@ copyright = "© {year}"
   # Follow the Hugo date/time format reference here: 
   # https://gohugo.io/functions/format/#gos-layout-string
   dateFormat = "Jan 2 2006"
-
+  pagination = "true" 
+  paginate = "4"
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
   twitter = "https://twitter.com/dgnicholson"
   github = "https://github.com/dgnicholson"

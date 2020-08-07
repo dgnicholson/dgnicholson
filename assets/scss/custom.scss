@@ -72,16 +72,7 @@ a {
 }
 
 //tag link customization
-.tag__link { 
-  color: $tagcolor; 
-  text-decoration: none; 
-  &:active {
-    color: $black;
-  } 
-  &:hover { 
-    color: $black; 
-  } 
-}
+
 
 .tag__header { 
   a, 

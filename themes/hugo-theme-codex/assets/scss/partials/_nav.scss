@@ -6,9 +6,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fff;
+  background: $white;
   visibility: hidden;
   z-index: 1;
+
 
   @media screen and (min-width: $medium) {
     display: block;

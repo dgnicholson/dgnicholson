@@ -1,17 +1,78 @@
 @import "../main";
 @import "../partials/post-list";
 
+.pagination__container { 
+  display: inline-block;
+  margin-left: 1.5rem;
+}
+
+.pagination { 
+  display: flex; 
+  flex-direction: row; 
+  margin-top: 1.5rem;
+  list-style: none; 
+
+  @media screen and (min-width: 500px) { 
+    flex-direction: row; 
+    display: flex; 
+    margin-left: 1.5rem; 
+    list-style: none; 
+    /* justify-content: space-between;*/ 
+  } 
+}
+
+.pagination__item {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+
+/*  &:nth-child(2) {
+    margin-top: 1.5rem;*/
+    
+
+
+  @media screen and (min-width: 400px) {
+    width: 40px;
+    padding: 15px;
+    border-radius: 4px;
+    &:first-of-type {
+      padding-right: 0px;
+    }
+    &:last-of-type {
+      margin-top: 0;
+    }
+    &:hover {
+      background-color: #f6f9fc;
+    }
+  }
+}
+
+.pagination__label {
+  color: $grey;
+  font-size: 0.8rem;
+}
+
+.pagination__title {
+  color: $black;
+  font-weight: 700;
+  margin-top: 0.25rem;
+} 
+   
+
 .tags__list {
   list-style: none;
   margin: 0;
-  padding: 0 0 0 50px;
+  padding: 0;
   flex-shrink: 0;
 
   @media screen and (max-width: $medium - 1) {
     display: none;
   }
 }
-
+.tag__label { 
+  color: $grey;  
+  font-size: 0.8rem; 
+}
 .post__header .tags__list {
   display: none;
   padding-left: 0;
@@ -30,24 +91,40 @@
   }
 
   .tag__link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    background: lighten($primary, 41%);
+    color: $primary;
     font-size: 0.8rem;
+
+    &:hover {
+      background: lighten($primary, 28%);
   }
 }
+}
+    
+ 
+
 
 .tag__link {
-  text-decoration: none;
-  color: $grey;
-  font-size: 0.9rem;
+  display: inline-block;
+    margin-top: 0.2em;
+    text-decoration: none;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    background: lighten($primary, 41%);
+    color: $primary;
+    font-size: 0.8rem;
 
-  &::before {
-    content: "#";
-    font-size: 0.7rem;
-    padding-right: 1px;
+    &:hover {
+      background: lighten($primary, 38%);
   }
 
-  &:hover {
-    color: $darkGrey;
-  }
+
+   
+  
 }
 
 /* page overrides */

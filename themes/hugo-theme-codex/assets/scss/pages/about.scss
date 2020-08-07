@@ -3,10 +3,12 @@ $navwidth: 150px;
 
 .splash-container {
   height: 100%;
-  display: flex;
+  display: flex; 
   justify-content: center;
   align-items: center;
   font-size: 14px;
+  
+  min-width: 0; 
 
   @media screen and (min-width: $medium) {
     font-size: 18px;
@@ -14,6 +16,7 @@ $navwidth: 150px;
 }
 
 .splash {
+
   h1 {
     font-size: 3em;
     line-height: 1;
@@ -46,17 +49,13 @@ $navwidth: 150px;
   color: $primary;
 }
 
-/* overrides */
-/*
+/* overrides 
+
  main {
-  padding-top: 0;
-  padding-bottom: 0;
-  height: 100%;
+  padding: 3rem 1.5rem 1rem;
 }
 
-*/ 
-
-main { 
+/* main { 
    padding: 4rem 1.5rem 1rem; 
    
    @media screen and (min-width: $medium) { 
@@ -65,7 +64,7 @@ main {
    @media screen and (max-width: $medium - 1) {
       padding-top: calc(3rem + #{burgerContainerHeight});
    } 
-}
+}*/
 
 .social-icons {
   justify-content: flex-start;

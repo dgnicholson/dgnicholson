@@ -1,4 +1,3 @@
-@import "partials/normalize";
 @import "partials/vars";
 @import "partials/reset";
 @import "partials/typography";
@@ -9,9 +8,15 @@ body.nav--active {
   overflow: hidden;
 }
 
+body { 
+  margin: auto;
+  justify-content:center;
+   
+}
+
 main {
   padding: 3rem 1.5rem 1rem;
-
+  
   @media screen and (min-width: $medium) {
     padding-left: calc(1.5rem + #{$navWidth});
   }
