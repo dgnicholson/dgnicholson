@@ -5,6 +5,14 @@
   align-items: baseline;
   display: flex;
   margin: 0 auto 3rem;
+  
+  h1 {
+  padding: 0.1em 0.4em;
+  border-radius: 5px;
+  background: lighten($primary, 41%);
+  color: $primary;
+  font-size: 1rem;
+  }
 
   a,
   .separator {
