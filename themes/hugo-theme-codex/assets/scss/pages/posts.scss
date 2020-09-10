@@ -2,8 +2,13 @@
 @import "../partials/post-list";
 
 .pagination__container { 
-  display: inline-block;
-  margin-left: 1.5rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+
+  @media screen and (min-width: $medium) {
+    padding-left: 25px;
+  }
 }
 
 .pagination { 
