@@ -1,3 +1,4 @@
+
 {{ define "styles" }}
     {{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/post.scss" "dest" "css/post.css") }}
     
@@ -25,7 +26,7 @@
 <!--post list --> 
 <div class="post-list__container">
   <div class="post-list">
-    {{ range .Paginator.Pages }}
+    {{ range (.Paginator 4).Pages }}
     <section class="post">
       <div class="post__header">
                 <h2 class="post__title">
@@ -36,11 +37,15 @@
         {{ partial "tags.html" .}}
       </div>
     </section>
+
+
     {{ end }}
+    <div class="blog_pagination__container">{{ partial "pagination.html" .}}</div>
   </div>
   
 </div>          
 
+ </div>
 
           <footer class="post__footer">
 

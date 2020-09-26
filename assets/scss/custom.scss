@@ -10,7 +10,7 @@ $black: #000;
 }
 
 //link colors
-a { 
+ a { 
    color: $highlightcolor;
    text-decoration: underline;
    &:hover {
@@ -20,7 +20,7 @@ a {
    &.active {
      color: black; 
    }
-}
+} 
 
 //desktop nav customization
 .nav { 
@@ -82,4 +82,3 @@ a {
  }
   }
 } 
-

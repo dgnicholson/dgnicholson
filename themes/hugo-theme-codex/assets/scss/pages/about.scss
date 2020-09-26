@@ -7,7 +7,7 @@ $navwidth: 150px;
   justify-content: center;
   align-items: center;
   font-size: 14px;
-  
+  flex-grow: 1;
   min-width: 0; 
 
   @media screen and (min-width: $medium) {
@@ -71,3 +71,4 @@ $navwidth: 150px;
   padding-top: 1rem;
   margin-left: -0.8rem;  // offset to negate icon's padding to align with text above
 }
+
