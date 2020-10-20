@@ -7,9 +7,9 @@
     <a href="{{ .URL }}" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
   </li>-->
   {{ end -}}
-  <li class="blog_pagination__item{{ if not $pag.HasNext }} disabled{{ end }}">
-    <a {{ if $pag.HasNext }}href="{{ $pag.Next.URL }}"{{ end }} class="page-link" aria-label="Next"><span aria-hidden="true">&laquo; Older Posts </span></a>
-  </li>
+  <span class="blog_pagination__item{{ if not $pag.HasNext }} disabled{{ end }}">
+    <a {{ if $pag.HasNext }}href="{{ $pag.Next.URL }}"{{ end }} class="page-link" aria-label="Next"><span aria-hidden="true"><span class="blog_pagination__link">&laquo; Older Posts </span></a>
+  </span>
  
   {{- $ellipsed := false -}}
   {{- $shouldEllipse := false -}}
@@ -36,9 +36,9 @@
   </li>
   {{- end -}}
   {{- end }}
-  <li class="blog_pagination__item{{ if not $pag.HasPrev }} disabled{{ end }}">
-    <a {{ if $pag.HasPrev }}href="{{ $pag.Prev.URL }}"{{ end }} class="page-link" aria-label="Previous"><span aria-hidden="true"> Newer Posts &raquo;</span></a>
-  </li>
+  <span class="blog_pagination__item{{ if not $pag.HasPrev }} disabled{{ end }}">
+    <a {{ if $pag.HasPrev }}href="{{ $pag.Prev.URL }}"{{ end }} class="page-link" aria-label="Previous"><span aria-hidden="true"><span class="blog_pagination__link">Newer Posts &raquo;</span></span></a>
+  </span>
 
   {{- with $pag.Last }}
 <!--
