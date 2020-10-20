@@ -1,10 +1,10 @@
 .social-icons {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .social-icons__link {
-  padding: 0.8rem;
+  padding-top: 1.2rem;
 
   &:not(:last-child) {
     margin-right: 1em;
