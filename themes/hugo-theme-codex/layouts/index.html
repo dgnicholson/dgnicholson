@@ -11,16 +11,16 @@
       <div class="post__container">
         <div class="post">
           <header class="post__header">
-	    <h1>{{ .Params.heading }}</h1>            
+	    <h1>{{ .Params.heading }}<span class="fancy">.</span></h1>            
 <h1 id="post__title">{{.Title}}</h1>
           <h2> 
    	    {{ .Params.subheading }}
           </h2> 
-           
+          
           </header>
           <article class="post__content">
               {{ partial "anchored-headings.html" .Content }}
-        
+              {{ partial "social-icons.html" .}}
           </article>
           {{ partial "tags.html" .}} {{ partial "post-pagination.html" .}}
 <!--post list --> 
@@ -46,8 +46,28 @@
 </div>          
 
  </div>
+</div></div></div>
+          <footer class="mainpost__footer">
+            <p>{{ replace .Site.Copyright "{year}" now.Year }}</p>
+          </footer>
+          
+      
+          
+    
+{{ end }}
 
-          <footer class="post__footer">
+{{ define "scripts" }}
+  {{/* Hardcode a specific prismjs version to avoid a redirect on every page load. */}}
+  <script src="https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js"></script>
+
+  {{/* Automatically loads the needed languages to highlight the code blocks. */}}
+  <script src="https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"
+    data-autoloader-path="https://unpkg.com/prismjs@1.20.0/components/"></script>
+
+  {{ if .Params.toc }}
+    <script src="/js/table-of-contents.js"></script>
+  {{ end }}
+
 
 
 
