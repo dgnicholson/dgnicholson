@@ -27,7 +27,7 @@ $tocBreakpoint: 1024px;
 
     .anchor {
       display: relative;
-      top: .5em; 
+      top: 0.5em; 
       text-decoration: none; 
       position: absolute;
       left: -1rem;
@@ -71,7 +71,11 @@ $tocBreakpoint: 1024px;
 }
 
 .post__footer {
-  padding-top: 3rem;
+  margin-top: 5rem;
+}
+
+.mainpost__footer {
+  margin-top: 8rem;
 }
 
 .toc-container {
@@ -81,9 +85,7 @@ $tocBreakpoint: 1024px;
   max-width: 350px;
 
   @media screen and (max-width: $tocBreakpoint) {
-    visibility: hidden;
-    width: 0;
-    margin: 0;
+    display: none;
   }
 }
 
@@ -156,10 +158,12 @@ $tocBreakpoint: 1024px;
   }
 }
 
+/* Post to post pagination */
+
 .pagination {
   display: flex;
   flex-direction: column;
-  margin-top: 1.5rem;
+  margin-top: 0;
 
   @media screen and (min-width: 600px) {
     flex-direction: row;
@@ -171,6 +175,7 @@ $tocBreakpoint: 1024px;
   text-decoration: none;
   display: flex;
   flex-direction: column;
+  border-radius: 3px;
 
   &:nth-child(2) {
     margin-top: 1.5rem;
@@ -180,6 +185,9 @@ $tocBreakpoint: 1024px;
     width: 275px;
     padding: 15px;
     border-radius: 4px;
+    &:link { 
+      background-color: #f6f9fc;
+    }
     &:first-of-type {
       padding-right: 15px;
     }
@@ -187,7 +195,7 @@ $tocBreakpoint: 1024px;
       margin-top: 0;
     }
     &:hover {
-      background-color: #f6f9fc;
+      background-color: #dde0e2;
     }
   }
 }
@@ -257,7 +265,6 @@ table {
 
 /* TODO
   - acknowledge https://edwardtufte.github.io/tufte-css/
-  - make sidenotes links and add a border to the content when clicked using `:target`
 */
 
 .sidenote {
@@ -273,13 +280,6 @@ table {
   float: left;
   margin-left: -20vw;
   margin-bottom: 1em;
-}
-
-/* (WIP) add border when a sidenote is clicked on */
-.sidenote:target {
-  border: hsl(55, 55%, 70%) 1.5px solid;
-  padding: 0 .5rem;
-  scroll-margin-block-start: 10rem;
 }
 
 /* sidenote counter */
@@ -422,4 +422,16 @@ input.sidenote-toggle {
       background-color: #dde0e2;
     }
   }
+}
+
+/* separator */
+
+hr {
+  box-sizing: content-box;
+  overflow: visible;
+  background-color: #e6e6e6;
+  border: 0;
+  height: 1px;
+  width: 90%;
+  margin: 2em auto;
 }
