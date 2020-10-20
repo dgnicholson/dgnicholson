@@ -75,7 +75,7 @@ $tocBreakpoint: 1024px;
 }
 
 .mainpost__footer {
-  margin-top: 8rem;
+  margin-top: 2.5rem;
 }
 
 .toc-container {
@@ -163,7 +163,7 @@ $tocBreakpoint: 1024px;
 .pagination {
   display: flex;
   flex-direction: column;
-  margin-top: 0;
+  margin-top: 1rem;
 
   @media screen and (min-width: 600px) {
     flex-direction: row;
