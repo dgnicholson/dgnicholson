@@ -1,13 +1,13 @@
-+++
-date = 2020-02-18T04:00:00Z
-hidden = true
-omitdate = true
-toc = true
-title = "Portfolio"
-#[menu.main]
-weight = 2
-
-+++
+---
+date: 2020-02-18T04:00:00Z
+slug: ""
+description: ""
+keywords: [blah]
+draft: false
+tags: [example]
+math: false
+toc: true
+---
 
 Lorem ipsum dolor sit amet, [consectetur adipiscing elit](https://www.google.com). Nulla ullamcorper ut ligula vitae suscipit. Suspendisse aliquam lobortis malesuada. Mauris ac mollis ipsum. In hac habitasse platea dictumst. Quisque lacinia eros purus, id blandit purus imperdiet ac. Nunc nunc erat, luctus at egestas ac, euismod eu mi. Nullam posuere felis metus. Quisque ultrices magna eu hendrerit laoreet. Nullam in ante at neque posuere pretim ullamcorper non diam. Nullam porta placerat ligula eu feugiat. Morbi ut bibendum diam, nec egestas magna. Vivamus lacus tellus, lobortis ac vulputate et, luctus vitae metus. Vivamus et aliquet lectus. Nulla a dui a libero mollis finibus. Donec in nunc pellentesque, mollis mauris eu, consequat diam. Donec ultrices nulla eget ultricies cursus.
 
