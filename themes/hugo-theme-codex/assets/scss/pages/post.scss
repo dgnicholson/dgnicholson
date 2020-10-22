@@ -75,7 +75,7 @@ $tocBreakpoint: 1024px;
 }
 
 .mainpost__footer {
-  margin-top: 8rem;
+  margin-top: 2.5rem;
 }
 
 .toc-container {
@@ -163,7 +163,7 @@ $tocBreakpoint: 1024px;
 .pagination {
   display: flex;
   flex-direction: column;
-  margin-top: 0;
+  margin-top: 1rem;
 
   @media screen and (min-width: 600px) {
     flex-direction: row;
@@ -217,7 +217,7 @@ footer {
   background: $white;
 
   p {
-    margin-top: 1rem; // reduce margin top due to social icons' padding
+    margin-top: 2rem; // reduce margin top due to social icons' padding
     color: $grey;
     font-size: 0.65rem;
   }
@@ -357,6 +357,7 @@ input.sidenote-toggle {
   max-width: 1200px;
   width: 50%;
   float: left;
+  text-decoration: none;
 
   @media screen and (min-width: $medium) {
      padding-left: 0px;
@@ -388,16 +389,18 @@ input.sidenote-toggle {
  }
 
 .blog_pagination__item {
+  text-decoration: none;}
+
+.blog_pagination__link {
   text-decoration: none;
   display: flex;
   flex-direction: column;
   font-weight: 700;
   color: #111;
-  text-decoration: none;
   background-color: #f6f9fc;
   border-radius: 3px;
   margin-top: 3px;
-
+ 
   a:link {
     color: #111;
     text-decoration: none;

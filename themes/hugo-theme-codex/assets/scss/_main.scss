@@ -24,4 +24,12 @@ main {
   @media screen and (max-width: $medium - 1) {
     padding-top: calc(3rem + #{$burgerContainerHeight});
   }
-}
+  @media screen and (max-width: $medium - 1) {
+    .post__header { 
+      
+      h1 {
+      margin-top: 0rem;
+      }
+    }
+  }
+}  

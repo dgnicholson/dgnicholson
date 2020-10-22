@@ -12,7 +12,7 @@ $black: #000;
 //link colors
  a { 
    color: $highlightcolor;
-   text-decoration: underline;
+   text-decoration: none;
    &:hover {
      color: $highlightcolor;
      text-decoration: none;

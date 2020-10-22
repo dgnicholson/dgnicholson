@@ -40,6 +40,9 @@
     width: 40px;
     padding: 15px;
     border-radius: 4px;
+    &:link { 
+      background-color: #f6f9fc;
+    }
     &:first-of-type {
       padding-right: 0px;
     }
@@ -51,6 +54,36 @@
     }
   }
 }
+
+.pagination__link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+
+/*  &:nth-child(2) {
+    margin-top: 1.5rem;*/
+    
+
+
+  @media screen and (min-width: 400px) {
+    width: 40px;
+    padding: 15px;
+    border-radius: 4px;
+    &:link { 
+      background-color: #f6f9fc;
+    }
+    &:first-of-type {
+      padding-right: 0px;
+    }
+    &:last-of-type {
+      margin-top: 0;
+    }
+    &:hover {
+      background-color: #f6f9fc;
+    }
+  }
+}
+
 
 .pagination__label {
   color: $grey;
