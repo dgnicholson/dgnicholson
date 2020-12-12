@@ -32,8 +32,7 @@
                 <h2 class="post__title">
           <a href="{{.RelPermalink}}">{{ .Title }}</a>
         </h2>
-<time class="post__date" datetime="{{ .Date }}"
-          >{{ .Date.Format $dateFormat }}</time>
+<time class="post__date" datetime="{{ .Date }}">{{ .Date.Format $dateFormat }}</time>
         {{ partial "tags.html" .}}
       </div>
     </section>

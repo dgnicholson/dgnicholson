@@ -27,19 +27,19 @@ $black: #000;
    font-size: $scale  * 1rem;
    font-weight: 500;
    line-height: 1.25;
-   max-width: 32em;
    letter-spacing: 0.03em;
    padding-top: 2.5em;
   
-//border-right: groove;
-   margin-left:1em;
+// border-right: groove;
+   margin-left:1.5em;
 //   padding-right:1em;
 // padding-left: 1em;
 } 
 
 .nav__list { 
-  padding-right: 15px;
-  border-right: groove;
+//  padding-right: 15px;
+//  border-right: groove;
+ // border-color: $tagcolor;
 }
 
 //buger nav customization 

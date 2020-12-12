@@ -3,9 +3,9 @@ title: "Blog Post"
 date: 2020-07-02T13:51:47-07:00
 slug: "This is a sample post"
 description: "This is a sample post"
-keywords: [example, sample]
+keywords: [sample]
 draft: false
-tags: [example, sample]
+tags: [sample]
 math: false
 toc: true 
 ---

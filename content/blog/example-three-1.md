@@ -1,9 +1,15 @@
-+++
-date = 2020-02-18T04:00:00Z
-featuredimage = "/uploads/bground3.png"
-title = "Example Three"
+---
+title: "Blog Post Two and a half"
+date: 2020-07-02T14:15:39-07:00
+slug: ""
+description: ""
+keywords: [blah]
+draft: false
+tags: [example, blah]
+math: false
+toc: false
+---
 
-+++
 ![](/uploads/bground3.png)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper ut ligula vitae suscipit. Suspendisse aliquam lobortis malesuada. Mauris ac mollis ipsum. In hac habitasse platea dictumst. Quisque lacinia eros purus, id blandit purus imperdiet ac. Nunc nunc erat, luctus at egestas ac, euismod eu mi. Nullam posuere felis metus. Quisque ultrices magna eu hendrerit laoreet. Nullam in ante at neque posuere pretium ullamcorper non diam. Nullam porta placerat ligula eu feugiat. Morbi ut bibendum diam, nec egestas magna. Vivamus lacus tellus, lobortis ac vulputate et, luctus vitae metus. Vivamus et aliquet lectus. Nulla a dui a libero mollis finibus. Donec in nunc pellentesque, mollis mauris eu, consequat diam. Donec ultrices nulla eget ultricies cursus.

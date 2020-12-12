@@ -39,7 +39,8 @@ h1 {
 }
 
 h2 {
-  font-size: $scale * 1rem;
+  font-size: $scale / 1.1 * 1rem;
+  font-weight: 600
 }
 
 h3 {

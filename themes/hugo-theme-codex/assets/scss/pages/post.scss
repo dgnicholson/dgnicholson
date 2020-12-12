@@ -72,10 +72,14 @@ $tocBreakpoint: 1024px;
 
 .post__footer {
   margin-top: 5rem;
+  background-color: #fafafa;
+
 }
 
 .mainpost__footer {
   margin-top: 2.5rem;
+  background-color: #fafafa;
+
 }
 
 .toc-container {
@@ -113,7 +117,6 @@ $tocBreakpoint: 1024px;
 
 .tags__list { 
   padding-right: 1rem;
-  padding-top: 0.5rem; 
   margin: 0 0;  
   list-style: none;
   display: flex;
@@ -163,7 +166,7 @@ $tocBreakpoint: 1024px;
 .pagination {
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 
   @media screen and (min-width: 600px) {
     flex-direction: row;
@@ -389,7 +392,8 @@ input.sidenote-toggle {
  }
 
 .blog_pagination__item {
-  text-decoration: none;}
+  text-decoration: none;
+}
 
 .blog_pagination__link {
   text-decoration: none;

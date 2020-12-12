@@ -1,7 +1,6 @@
 {{ define "styles" }}
     {{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/posts.scss" "dest" "css/posts.css") }}
-   
-   
+     
 {{ end }}
 
 {{ define "main" }}
@@ -9,28 +8,27 @@
 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}    
 
 <div class="post-list__container">
+  <div class="tags__sidelist">
+    <span class="tags__list">Tags: <br>{{ partial "browse-by-tag.html" .}}</span>
+  </div>
   <ul class="post-list">
-    {{ range (.Paginator 4).Pages }}
-    <li class="post">
+    {{ range (.Paginator 50).Pages }}
+    <section class="post">
       <div class="post__header">
        <h2 class="post__title">
           <a href="{{.RelPermalink}}">{{ .Title }}</a>
         </h2>
-        <time class="post__date" datetime="{{ .Date }}"
-          >{{ .Date.Format $dateFormat }}</time>
+        <time class="post__date" datetime="{{ .Date }}">{{ .Date.Format $dateFormat }}</time>
         {{ partial "tags.html" .}}
       </div>
-    </li>
+    </section>
   
  {{ end }}
-  </ul>
-<span class="tags__list">Categories: {{ partial "browse-by-tag.html" .}}</span>
+ <span class="blog_pagination__container">{{ partial "pagination.html" .}}</span>  
+</ul>
 </div>
-<div class="pagination__container">{{ partial "pagination.html" .}}<div>
+
 
  </div>
 
 {{ end }}
-
-
-

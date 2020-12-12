@@ -1,13 +1,15 @@
 {{ $taxo := "tags" }}
 {{ with .Param $taxo }}
 
-<div class="tags__list"><span class="tag__label">Filed under: </span> 
+<div class="tags___list"><span class="tag__label">🏷️ </span> 
     {{ range $index, $tag := . }}
     {{ with $.Site.GetPage (printf "/%s/%s" $taxo $tag) -}}
     <div class="tag__item">
-        <a class="tag__link" href="{{ .Permalink }}">{{ $tag | urlize }}</a>
+        <a class="tag__link" href="{{ "/tags#" | relLangURL}}{{ $tag | urlize }}">{{ $tag | urlize }}</a>
     </div>
+    
     {{- end -}}
   {{- end -}}
+  
 </div>
 {{ end }}
