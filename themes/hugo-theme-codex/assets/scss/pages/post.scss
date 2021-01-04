@@ -18,7 +18,11 @@ $tocBreakpoint: 1024px;
 
   width: 100%;
   max-width: 34rem;
+  margin: 0 auto 0 25%;
+
+  @media screen and (max-width: $tocBreakpoint) {
   margin: 0 auto;
+  }
 
   h2,
   h3 {

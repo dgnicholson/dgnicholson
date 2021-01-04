@@ -204,9 +204,10 @@
 .post-list__container {
   width: 100%;
   max-width: 38rem;
-  margin: 0 auto;
+  margin: 0 auto 0 25%;
 
 @media screen and (max-width: $medium - 1) {
+  margin: 0 auto;
   .post__header { 
     
     h1 {
