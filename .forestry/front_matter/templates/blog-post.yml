@@ -23,3 +23,5 @@ fields:
   label: Table of Contents
   description: Show or hide the table of contents
   default: true
+pages:
+- content/blog/my-first-test-post.md
