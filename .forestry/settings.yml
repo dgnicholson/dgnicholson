@@ -12,10 +12,12 @@ sections:
   templates:
   - blog-post
 - type: directory
-  path: content/post
+  path: content
   label: Pages
-  create: all
+  create: documents
   match: "*"
+  templates:
+  - page
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
