@@ -7,6 +7,6 @@ title = "My first test post"
 toc = true
 
 +++
-# Hello World! 
+## Hello World!
 
 This is my first post from my CMS.
