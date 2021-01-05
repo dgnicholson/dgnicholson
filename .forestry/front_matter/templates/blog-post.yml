@@ -8,10 +8,20 @@ fields:
 - type: datetime
   name: date
   label: date
+  default: now
 - name: featuredimage
   type: file
   config:
-    maxSize: 250
+    maxSize: 64
   label: featuredImage
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: toc
+  type: boolean
+  label: Table of Contents
+  description: Show or hide the table of contents
+  default: true
 pages:
 - content/blog/this-is-a-test-post-please-ignore.md
