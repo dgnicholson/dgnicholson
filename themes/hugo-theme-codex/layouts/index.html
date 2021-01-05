@@ -26,17 +26,16 @@
 <!--post list --> 
 <div class="post-list__container">
   <div class="post-list">
-    {{ range (.Paginator 4).Pages }}
-    <section class="post">
+    {{ range (.Paginator 3).Pages }}
+    <div class="post-list_bullets">
       <div class="post__header">
                 <h2 class="post__title">
           <a href="{{.RelPermalink}}">{{ .Title }}</a>
         </h2>
-<time class="post__date" datetime="{{ .Date }}"
-          >{{ .Date.Format $dateFormat }}</time>
+<time class="post__date" datetime="{{ .Date }}">{{ .Date.Format $dateFormat }}</time>
         {{ partial "tags.html" .}}
       </div>
-    </section>
+    </div>
 
 
     {{ end }}

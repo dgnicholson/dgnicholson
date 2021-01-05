@@ -11,12 +11,14 @@ body.nav--active {
 body { 
   margin: auto;
   justify-content:center;
-   
+  background-color: #fafafa;
+
 }
 
 main {
   padding: 3rem 1.5rem 1rem;
-  
+  background-color: #fafafa;
+
   @media screen and (min-width: $medium) {
     padding-left: calc(1.5rem + #{$navWidth});
   }

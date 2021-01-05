@@ -14,13 +14,13 @@
       {{ range $taxonomy_term, $taxonomy := .Site.Taxonomies }}
           {{ with $.Site.GetPage (printf "/%s" $taxonomy_term) }}
                       {{ range $key, $value := $taxonomy }}
-                          <h2><div id="{{ $key }}">{{ $key }}</div></h2>
+                          <h2><div id="{{ $key }}">🏷️ {{ $key }}</div></h2>
                               {{ range $value.Pages }}
                               <li class="post"></li>
                                     <div class="post__header">
 
                                     <h2 class="post__title">
-                                    <a href="{{.RelPermalink}}">🏷️{{ .Title }}</a>
+                                    <a href="{{.RelPermalink}}">{{ .Title }}</a>
                                     </h2>
                                     <time class="post__date" datetime="{{ .Date }}">{{ .Date.Format $dateFormat }}</time>
 
