@@ -9,11 +9,6 @@ fields:
   name: date
   label: date
   default: now
-- name: featuredimage
-  type: file
-  config:
-    maxSize: 64
-  label: featuredImage
 - name: tags
   type: tag_list
   default: []
