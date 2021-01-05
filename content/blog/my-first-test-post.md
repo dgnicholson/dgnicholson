@@ -1,6 +1,6 @@
 +++
 date = 2021-01-05T04:16:39Z
-featuredimage = ""
+featuredimage = "/uploads/unnamed.jpg"
 tags = ["hello"]
 title = "My first test post"
 toc = false
