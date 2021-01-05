@@ -22,5 +22,3 @@ fields:
   type: boolean
   label: hidden
   default: true
-pages:
-- content/post/about-dan.md
