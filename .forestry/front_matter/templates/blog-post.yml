@@ -23,5 +23,3 @@ fields:
   label: Table of Contents
   description: Show or hide the table of contents
   default: true
-pages:
-- content/blog/this-is-a-test-post-please-ignore.md
