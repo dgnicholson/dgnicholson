@@ -1,24 +1,12 @@
 ---
-label: Page
+label: Home Page
 hide_body: false
 fields:
 - type: text
-  name: title
-  label: title
-- type: datetime
-  name: date
-  label: date
-- name: menu
+  name: heading
+  label: Main Title
+- name: subheading
   type: text
   config:
     required: false
-  label: menu
-  default: main
-- name: omitdate
-  type: boolean
-  label: omitDate
-  default: true
-- name: hidden
-  type: boolean
-  label: hidden
-  default: true
+  label: Subheading
