@@ -3,6 +3,7 @@ heading: Daniel Nicholson
 subheading: Hi! I’m Daniel, a technical writer and general messenger of all things
   technical.
 handle: dgnicholson
+draft: true
 
 ---
 ## My work
