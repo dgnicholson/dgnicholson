@@ -2,7 +2,7 @@
 theme = "hugo-theme-codex" 
 
 # Override these settings with your own
-title = "codex"
+title = "Daniel Nicholson"
 languageCode = "en-us"
 baseURL="https://relaxed-beaver-e36a34.netlify.app/"
 copyright = "© {year}"
