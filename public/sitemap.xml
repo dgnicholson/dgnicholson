@@ -3,46 +3,92 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://relaxed-beaver-e36a34.netlify.com/</loc>
-    <lastmod>2020-02-18T04:00:00+00:00</lastmod>
+    <loc>https://relaxed-beaver-e36a34.netlify.app/</loc>
+    <lastmod>2021-01-05T04:16:39+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://relaxed-beaver-e36a34.netlify.com/post/about-me/</loc>
-    <lastmod>2020-02-18T04:00:00+00:00</lastmod>
+    <loc>https://relaxed-beaver-e36a34.netlify.app/blog/</loc>
+    <lastmod>2021-01-05T04:16:39+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://relaxed-beaver-e36a34.netlify.com/post/example-three-1/</loc>
-    <lastmod>2020-02-18T04:00:00+00:00</lastmod>
+    <loc>https://relaxed-beaver-e36a34.netlify.app/tags/hello/</loc>
+    <lastmod>2021-01-05T04:16:39+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://relaxed-beaver-e36a34.netlify.com/post/example-three/</loc>
-    <lastmod>2020-02-18T04:00:00+00:00</lastmod>
+    <loc>https://relaxed-beaver-e36a34.netlify.app/blog/my-first-test-post/</loc>
+    <lastmod>2021-01-05T04:16:39+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://relaxed-beaver-e36a34.netlify.com/post/my-second-post/</loc>
-    <lastmod>2020-02-18T04:00:00+00:00</lastmod>
+    <loc>https://relaxed-beaver-e36a34.netlify.app/tags/</loc>
+    <lastmod>2021-01-05T04:16:39+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://relaxed-beaver-e36a34.netlify.com/post/portfolio/</loc>
-    <lastmod>2020-02-18T04:00:00+00:00</lastmod>
+    <loc>https://relaxed-beaver-e36a34.netlify.app/tags/blah/</loc>
+    <lastmod>2020-07-02T14:15:39-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://relaxed-beaver-e36a34.netlify.com/post/</loc>
-    <lastmod>2020-02-18T04:00:00+00:00</lastmod>
+    <loc>https://relaxed-beaver-e36a34.netlify.app/blog/blog-post-eight/</loc>
+    <lastmod>2020-07-02T14:15:39-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://relaxed-beaver-e36a34.netlify.com/categories/</loc>
+    <loc>https://relaxed-beaver-e36a34.netlify.app/blog/blog-post-five/</loc>
+    <lastmod>2020-07-02T14:15:39-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://relaxed-beaver-e36a34.netlify.com/tags/</loc>
+    <loc>https://relaxed-beaver-e36a34.netlify.app/blog/blog-post-four/</loc>
+    <lastmod>2020-07-02T14:15:39-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://relaxed-beaver-e36a34.netlify.app/blog/blog-post-seven/</loc>
+    <lastmod>2020-07-02T14:15:39-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://relaxed-beaver-e36a34.netlify.app/blog/blog-post-six/</loc>
+    <lastmod>2020-07-02T14:15:39-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://relaxed-beaver-e36a34.netlify.app/blog/blog-post-three/</loc>
+    <lastmod>2020-07-02T14:15:39-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://relaxed-beaver-e36a34.netlify.app/blog/blog-post-two/</loc>
+    <lastmod>2020-07-02T14:15:39-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://relaxed-beaver-e36a34.netlify.app/blog/example-three-1/</loc>
+    <lastmod>2020-07-02T14:15:39-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://relaxed-beaver-e36a34.netlify.app/tags/example/</loc>
+    <lastmod>2020-07-02T14:15:39-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://relaxed-beaver-e36a34.netlify.app/blog/this-is-a-sample-post/</loc>
+    <lastmod>2020-07-02T13:51:47-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://relaxed-beaver-e36a34.netlify.app/tags/sample/</loc>
+    <lastmod>2020-07-02T13:51:47-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://relaxed-beaver-e36a34.netlify.app/categories/</loc>
   </url>
   
 </urlset>
