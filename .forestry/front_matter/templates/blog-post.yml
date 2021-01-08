@@ -20,3 +20,4 @@ fields:
   default: true
 pages:
 - content/blog/my-first-test-post.md
+- content/blog/test.md
