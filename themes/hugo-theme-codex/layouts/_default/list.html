@@ -12,7 +12,7 @@
     <span class="tags__list">Tags: <br>{{ partial "browse-by-tag.html" .}}</span>
   </div>
   <ul class="post-list">
-    {{ range (.Paginator 50).Pages }}
+    {{ range (.Paginator 5).Pages }}
     <section class="post">
       <div class="post__header">
        <h2 class="post__title">
@@ -21,10 +21,12 @@
         <time class="post__date" datetime="{{ .Date }}">{{ .Date.Format $dateFormat }}</time>
         {{ partial "tags.html" .}}
       </div>
+      {{ end }}
+      <p><span class="blog_pagination__container">{{ partial "pagination.html" .}}</span><p>  
     </section>
   
- {{ end }}
- <span class="blog_pagination__container">{{ partial "pagination.html" .}}</span>  
+
+
 </ul>
 </div>
 

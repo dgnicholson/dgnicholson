@@ -1,0 +1,33 @@
+// Toolbar Menu 
+
+.toolbar_menu {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display: inline-flex;
+  font-weight: 600;
+}
+ 
+.toolbar_menu__container {
+  height: $toolbarContainerHeight;
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background: linear-gradient(#fafafa, #ffffff);
+  box-shadow: rgba(0, 0, 0, 0.05) 2px 2px 10px;
+
+
+  @media screen and (min-width: $medium) {
+    display: none;
+  }
+}
+
+.toolbar {
+  position: relative;
+  width: $meatWidth;
+  height: $meatWidth;
+  cursor: pointer;
+}

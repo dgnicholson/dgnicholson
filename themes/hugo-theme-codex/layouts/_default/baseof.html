@@ -47,7 +47,7 @@
 </head>
 
 <body>
-  {{ partial "burger.html" .}} 
+  {{ partial "toolbar-menu.html" .}} 
 
   {{ partial "nav.html" .}}
 
@@ -58,9 +58,6 @@
 
   {{ block "footer" . }} {{ end }}
 
-  {{ $script := resources.Get "js/index.js" | minify | fingerprint }}
-  <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity | safeHTMLAttr }}" crossorigin="anonymous"></script>
-  {{ block "scripts" . }} {{ end }}
 </body>
 
 </html>
