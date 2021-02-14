@@ -25,4 +25,4 @@ I have a monthly newsletter that I send. It tends to cover some stuff that’s b
 
 You can read more about my newsletter here, or you can subscribe using the form below.
 
-## My blog
+## My favorite posts

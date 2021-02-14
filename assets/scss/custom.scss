@@ -28,28 +28,15 @@ $black: #000;
    font-weight: 600;
    line-height: 1.25;
    letter-spacing: 0.03em;
-   padding-top: 2.5em;
-  
-// border-right: groove;
+   padding-top: 2.5em;  
    margin-left:1.5em;
-//   padding-right:1em;
-// padding-left: 1em;
 } 
 
-.nav__list { 
-//  padding-right: 15px;
-//  border-right: groove;
- // border-color: $tagcolor;
-}
-
-//buger nav customization 
-.burger__meat {
-   background: $highlightcolor;
-}
 //nav link colors
  .nav__list a { 
   color: $highlightcolor; 
   text-decoration: none; 
+  
   &.active {
     color: $black;
   } 
@@ -67,7 +54,6 @@ $black: #000;
   } 
   &:hover { 
     color: $black;
-   
   } 
 }
 
