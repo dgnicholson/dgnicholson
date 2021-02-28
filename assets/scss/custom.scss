@@ -15,7 +15,7 @@ $black: #000;
    text-decoration: none;
    &:hover {
      color: $highlightcolor;
-     text-decoration: none;
+     text-decoration: underline;
    }
    &.active {
      color: black; 

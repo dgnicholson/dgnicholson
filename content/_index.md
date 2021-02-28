@@ -1,28 +1,23 @@
 ---
+title: About
 heading: Daniel Nicholson
-subheading: Hi! I’m Daniel, a technical writer and general messenger of all things
-  technical.
+subheading: Hi! I’m a technical communicator, content specialist, writer, and messenger of all things technical.
 handle: dgnicholson
 
 ---
 ## My work
 
-I worked in the tech industry as a technical writer for close to a decade. Most recently I've worked for a subsidiary of Samsung Electronics documenting every nook and cranny of a cloud telecommunications messaging solution for telecom operators. Previously I worked in a the e-learning industry creating technical courseware and training manuals for companies big and small.
+I've worked in the tech industry as a technical communicator for over a decade. Most recently I’ve worked for a subsidiary of Samsung Electronics documenting every nook and cranny of a cloud telecommunications messaging solution. Previously, I worked in the e-learning industry creating technical courseware and training manuals aimed at organizations big and small.
 
-## I write about these things
+## I mostly write about these things
 
-**Technical writing**  
-I don't talk about remote work in vague terms or in an attempt to sell the lifestyle. I share a candid, honest perspective from 3+ years of working remotely, including leading teams of 20+.
+**📝 Technical communication** <br> 
+Too often, the barrier between good software and great software is inadequate documentation. I share personal learnings on how to break down this barrier to provide users and developers with the resources to take software to its true capabilities. 
 
-**Communication in the tech industry**  
-The story of overnight success is a myth. I share personal learnings and struggles of my journey in becoming a developer, an entrepreneur, and a forever learner.
+**🗃️ Content strategy**<br>
+Content strategy focuses on the planning, creation, delivery, and governance of content—and most sites don't do it. I write about how to use content strategy to vastly improve user experience.  
 
-**Remote work**  
-I don't talk about remote work in vague terms or in an attempt to sell the lifestyle. I share a candid, honest perspective from 3+ years of working remotely, including leading teams of 20+.
-
-## My newsletter
-I have a monthly newsletter that I send. It tends to cover some stuff that’s been on my mind, some info about posts both from this blog and elsewhere, and some insider stuff that I don’t publish anywhere else.
-
-You can read more about my newsletter here, or you can subscribe using the form below.
+**✔️ Productivity** <br>
+Progress is incremental with no guarantee of incrementing. Productivity is there to keep you on track, but it's important not to get carried away with tools and processes. I share what I've learned works for me, and I hope it'll work for you too.
 
 ## My favorite posts

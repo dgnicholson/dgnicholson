@@ -12,11 +12,10 @@
         <div class="post">
           <header class="post__header">
 	    <h1>{{ .Params.heading }}<span class="fancy">.</span></h1>            
-<h1 id="post__title">{{.Title}}</h1>
           <h2> 
    	    {{ .Params.subheading }}
           </h2> 
-          {{ partial "social-icons.html" .}}  
+          <!-- {{ partial "social-icons.html" .}}-->  
           </header>
           <article class="post__content">
               {{ partial "anchored-headings.html" .Content }}
@@ -50,7 +49,7 @@
 </div>
 
 <footer class="mainpost__footer">
-  <p>{{ replace .Site.Copyright "{year}" now.Year }}</p>
+  <p>{{ replace .Site.Copyright "{year}" now.Year }} Daniel Nicholson | <a href="/blog/index.xml">RSS</a></p>
 </footer>
           
       
